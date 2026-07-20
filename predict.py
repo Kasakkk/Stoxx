@@ -2,7 +2,7 @@ import yfinance as yf
 import pandas as pd
 import joblib
 
-# Load the trained model and scaler
+# Load trained model and scaler
 model = joblib.load("model.pkl")
 scaler = joblib.load("scaler.pkl")
 
