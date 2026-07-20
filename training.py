@@ -5,7 +5,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
 import joblib
 
-# Load your data
+# Load data
 df = pd.read_csv("stocks.csv")
 
 # Normalize column names to lowercase
