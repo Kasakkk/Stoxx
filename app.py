@@ -134,7 +134,7 @@ if st.button("Predict"):
         else:
             add_assistant_message("Moderate confidence suggests holding and monitoring. Always consult a financial advisor.")
 
-        # Redisplay assistant messages after prediction
+        # assistant messages after prediction
         for msg in st.session_state.assistant_messages:
             st.sidebar.markdown(msg)
 
